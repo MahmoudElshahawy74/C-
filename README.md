@@ -26,11 +26,11 @@ Replace 8080 with the desired port number. This command will open the specified 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Start Project :  -Compile Server Program in VS terminal: $g++ main.cpp server_.cpp 
+Start Project :  -Compile Server Program in VS terminal: g++ -o server server.cpp main.cpp 
 $./server_
 -test client on your terminal locally : Telnet localhost 54000.
 
--open the app on your mobile Client : -type your IP pf your laptop's network and the port number to connect  ex 192.0.0.0. and your port ex 54000
+-open the app on your mobile Client remotly : -type your IP pf your laptop's network and the port number to connect  ex 192.0.0.0. and your port ex 54000
 choose one of services, Server will excute the command on your desktop.
 
 
